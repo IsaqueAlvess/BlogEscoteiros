@@ -1,0 +1,67 @@
+/*Cabeçalho*/
+header{
+	background-color: #BF5D43;
+	width: 400;
+	height: 300;
+	text-align: center;
+	padding: 10px; /*gera espaço ao redor do elemento*/
+	color: white;
+}
+
+.titles{
+	background-color:rgb(134, 48, 48);
+	padding: 15px;
+	height: 100%;
+}
+
+.h3{
+	font-style: normal;
+}
+/*Div principal*/
+.column{
+	background-color: #009999;
+	color:white;
+	height: 80%;
+}
+/*Coluna esquerda e direita*/
+.side{
+	width: 25%;
+	float:left;
+}
+/*Coluna Principal*/
+.middle{
+	width: 50%;
+	float:left;
+
+}
+
+
+
+
+
+
+
+
+/* 
+/*Coluna esquerda e direita
+.leftSide{
+	float:left;
+}
+
+/*Coluna esquerda e direita
+.rightSide{
+	width: 25%;
+	float:right;
+}
+/*Coluna esquerda e direita 
+.middle{
+	width: 25% 
+	float:left;
+}
+*/
+.footer{
+	background-color: #BF5D43;
+	text-align: center;
+	padding: 20px;
+}
+
