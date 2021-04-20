@@ -7,60 +7,32 @@ header{
 	padding: 10px; /*gera espaço ao redor do elemento*/
 	color: white;
 }
-
-.titles{
-	background-color:rgb(134, 48, 48);
-	padding: 15px;
-	height: 100%;
-}
-
-.h3{
+/*estilo do texto principal*/
+h3{
 	font-style: normal;
+	padding-bottom: 20px;
 }
-/*Div principal*/
-.column{
-	background-color: #009999;
+
+/*Div principal - Coluna*/
+.coluna{
 	color:white;
-	height: 80%;
-}
-/*Coluna esquerda e direita*/
-.side{
-	width: 25%;
-	float:left;
-}
-/*Coluna Principal*/
-.middle{
-	width: 50%;
-	float:left;
-
-}
-
-
-
-
-
-
-
-
-/* 
-/*Coluna esquerda e direita
-.leftSide{
-	float:left;
-}
-
-/*Coluna esquerda e direita
-.rightSide{
-	width: 25%;
-	float:right;
-}
-/*Coluna esquerda e direita 
-.middle{
-	width: 25% 
-	float:left;
-}
-*/
-.footer{
 	background-color: #BF5D43;
+	height: 80%;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-bottom: 30px;
+}
+
+/*atribuindo à uma classe específica.*/
+p.texto_principal{
+	text-align: justify;
+	padding-right: 15px;
+
+}
+
+/*footer - parte de baixo das páginas*/
+.footer{
+	background-color: #ec8264;
 	text-align: center;
 	padding: 20px;
 }
